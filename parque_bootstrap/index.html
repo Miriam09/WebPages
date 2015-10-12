@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" type="image/jpg" href="imagenes/logo_transp_ico.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  <title>Parque Atracciones</title>
+
+</head>
+<body>
+
+  <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-xs-12 col-md-3"><img src="imagenes/logo7b.png" alt="logo" class="img-responsive"></div>
+          <div class="col-xs-12 col-md-9">
+            <nav class="navbar navbar-default navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navabar-toggle" data-toggle="collapse" data-target="#navbar-1">
+                            <span class="sr-only">Menú</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-inverse" id="navbar-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Hoteles</a></li>
+                            <li><a href="#">Restaurantes</a></li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                Parque <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Entradas</a></li>
+                                <li><a href="#">Ofertas</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Mapa</a></li>
+                                <li><a href="#">Atracciones</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+
+                        <form action="" class="navbar-form navbar-left" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscar" >
+                          </div>
+                        </form>
+
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li><a href="#"><img src="imagenes/icono_twitter.png" alt="twitter" class="img-responsive"></a></li>
+                            <li><a href="#"><img src="imagenes/icono_facebook.png" alt="facebook" class="img-responsive"></a></li>
+                            <li><a href="#"><img src="imagenes/icono_mail.png" alt="contacto" class="img-responsive"></a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+          </div>
+        </div>
+     </header>
+  </div>
+  <div class="container ">
+    <section class="cuerpo row">
+      <aside class="col-xs-12 col-md-3">
+        <div class="panel panel-warning">
+            <div class="panel-heading"><h4>Compra de entradas</h4></div>
+            <div class="panel-body">
+                <div class="container">
+                    <form action="" class="">
+                      <div class="col-xs-11 col-md-2">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" class="form-control" id="fecha">
+
+                        <label for="fecha">Adultos</label>
+                        <input type="number" class="form-control" id="adultos">
+
+                        <label for="fecha">Niños</label>
+                        <input type="number" class="form-control" id="niños">
+                      </div>
+                    </form>
+                </div>
+            </div>
+            <div class="panel-footer"><button class="btn btn-warning center-block">Comprar</a></div>
+        </div>
+      </aside>
+      <article class="col-xs-12 col-md-9">
+        <div id="carousel-1" class="carousel slide" data-ride="carousel">
+          <!--Indicadores-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            <li data-target="#carousel-1" data-slide-to="3"></li>
+          </ol>
+          <!--Contenedor de los slide-->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="imagenes/imagen-slider.jpg" alt="principal" class="img-responsive img-rounded center-block">
+              <div class="carousel-caption"><h3></h3></div>
+            </div>
+            <div class="item">
+              <img src="imagenes/imagen-slider02.jpg" alt="principal" class="img-responsive img-rounded center-block">
+              <div class="carousel-caption"><h3></h3></div>
+            </div>
+            <div class="item">
+              <img src="imagenes/imagen-slider03.jpg" alt="principal" class="img-responsive img-rounded center-block">
+              <div class="carousel-caption"><h3></h3></div>
+            </div>
+            <div class="item">
+              <img src="imagenes/imagen-slider04.jpg" alt="principal" class="img-responsive img-rounded center-block">
+              <div class="carousel-caption"><h3></h3></div>
+            </div>
+          </div>
+          <!--Controles-->
+          <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+
+      </article>
+
+    </section>
+  </div>
+
+  <div class="container ">
+    <div class="row cuerpo">
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="imagenes/restaurante.jpg" alt="">
+            <div class="caption">
+              <h3>Menú gratis</h3>
+              <p>Con la compra del pack familiar, menus gratis para toda la familia.</p>
+              <a href="#" class="btn btn-warning">Leer más</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="imagenes/hotel.jpg" alt="">
+            <div class="caption">
+              <h3>Reserva tu hotel</h3>
+              <p>Reserva ya tu hotel con las entradas y obten un 15% de descuento.</p>
+              <a href="#" class="btn btn-warning">Leer más</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="imagenes/estudiantes.jpg" alt="">
+            <div class="caption">
+              <h3>Estudiantes</h3>
+              <p>Ofertas exclusivas para excursiones escolares en entradas y menús.</p>
+              <a href="#" class="btn btn-warning">Leer más</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+          <div class="thumbnail">
+              <img src="imagenes/atraccion2.jpg" alt="">
+              <div class="caption">
+                <h3>Nuestras atracciones</h3>
+                <p>Descubre las mejores atracciones del mundo jurásico.</p>
+                <a href="#" class="btn btn-warning">Leer más</a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid piePagina">
+          <div class="pull-left">
+            <address>
+              <strong class="naranja">Adventure World</strong> <br>
+              <span class="text-warning">526 Jurassic Avenue, Albacete (02005)
+              <abbr title="Phone">P: </abbr>967-462-058</span>
+            </address>
+          </div>
+          <div class="pull-right text-right">
+          <span class="text-warning">  Copyright © 2015 </span><br><a href="https://twitter.com/MiimiiMS" target="_blank" class="naranja">Miriam Moreno 2ºDAW</a>
+          </div>
+    </div>
+
+  </footer>
+  <div class="clearfix"></div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

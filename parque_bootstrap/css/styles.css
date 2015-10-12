@@ -1,0 +1,43 @@
+
+body {
+  background:rgb(232, 226, 217) ;
+}
+
+#navegacion {
+    margin-left:4%;
+}
+#cabecera{
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+nav {
+    margin-top:6%;
+
+}
+
+.navbar{
+  background: #2e1706:
+}
+
+
+/*#imPpal {
+  margin-left: 7%;
+
+}*/
+
+.cuerpo {
+  margin-top: 2.4%;
+}
+
+footer{
+  background: #2e1706;
+  color: white;
+}
+
+.piePagina {
+  padding: 1em;
+}
+
+.naranja{
+  color: orange;
+}
